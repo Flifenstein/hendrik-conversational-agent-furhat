@@ -1,8 +1,38 @@
+# Hendrik: an embodied conversational agent for course evaluations
 
-This is a Univeristy of Twente project for the Advance conversational agents course. 
-In this repository you can find the source code and the final article of our research.
 
-Abstract:
-The University of Twente currently sends an online questionnaire to collect the opinions of its students regarding courses.The response rate is always low which hinders the improvements of courses due to lack of qualitative insights from students. This research aims to investigate if an Embodied Conversational Agent (ECA) can be used as a replacement for evaluating courses at the University of Twente. In this study, a Furhat ECA, named Hendrik, has two different conversational styles (formal and casual). These conditions were tested through a conversation with the students. The variations between conversational styles and the response strategy were confronted with a ground control group, all three conditions being later assessed and compared through the SASSI questionnaire. To validate if the responses can be regarded as
-qualitative and useful we relied on the teachers of the courses to compare them using the SSA method. The results showed how students find the formal ECA as the most appropriate and easy to use method for course evaluations, as it engages them the most while being easy to understand. However, answers were found most useful by professors when students interacted with the casual ECA, suggesting that further research should aim at building a better system capable of having natural
-conversations. Insights from this study on conversational styles for an ECA can be used as a baseline in building better performing agents, which is a real need for service oriented industries where collecting qualitative feedback is essential.
+A team project from the *Advanced Conversational Agents* course at University of Twente (2022). We built a Furhat-based embodied conversational agent (ECA) named Hendrik to test whether conversational agents could be a viable alternative to traditional online questionnaires for course evaluations — which typically suffer from low response rates and shallow qualitative feedback.
+
+## What we tested
+
+We compared two conversational styles for Hendrik — **formal** and **casual** — against a control (the existing online questionnaire) along two dimensions:
+
+- **Student experience** — measured via the SASSI questionnaire
+- **Response quality** — assessed by course teachers using the SSA method
+
+## What we found
+
+- Students preferred the **formal** ECA: rated as more appropriate and easier to use
+- Teachers found responses from the **casual** ECA most useful and qualitatively richer
+- Suggests a real tension: the agent students find most appropriate isn't the one that elicits the most useful answers
+
+## What's in this repo
+
+| File / folder | What it is |
+|---|---|
+| `src/main/kotlin/furhatos/app/Hendrik/` | Furhat skill source code (Kotlin) |
+| `assets/webTemplates/BASIC/` | Web UI templates |
+| `Hendrik__the_conversational_questionnaire.pdf` | Full research paper |
+| `build.gradle`, `gradlew`, `skill.properties` | Furhat build configuration |
+
+## Built with
+
+- [Furhat SDK](https://furhat.io/) — ECA platform
+- Kotlin
+- Gradle
+
+## Status
+
+Course project, completed 2022. Not actively maintained.
+
+Thanks to Pietro Camin and 
