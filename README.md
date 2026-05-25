@@ -35,4 +35,4 @@ We compared two conversational styles for Hendrik — **formal** and **casual** 
 
 Course project, completed 2022. Not actively maintained.
 
-Thanks to Pietro Camin and 
+Thanks to Pietro Camin and Armein Dul for the most awesome collab!
